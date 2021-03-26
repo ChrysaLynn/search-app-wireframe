@@ -6,15 +6,24 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     
     <!-- MAIN CSS -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/9e4d7f99de.js" crossorigin="anonymous"></script>
     <title>Music | We got lots.</title>
 </head>
 <body>
     <h1 class="label-logo">Logo</h1>
-    <div>
-        <h3 class="plc-hldr">Need to find a label for your band?</h3>
-        <input placeholder="search by genre">
-        <input type="submit"></input>
+    <div class="main-content">
+        <h3 class="tagline">Need to find a label for your band?</h3>
+        <form>
+            <input type="text" class="search-input" placeholder="search by genre" />
+            <a href="#">
+                <button>
+                    <i class="fas fa-search"></i>
+                </button>
+            </a>
+        </form>
     </div>
 </body>
 </html>

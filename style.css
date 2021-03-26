@@ -1,0 +1,11 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+}
+
+.main-content input.search-input {
+    padding: 5px;
+    height: 24px;
+    width: 80%;
+    text-align: center;
+}
