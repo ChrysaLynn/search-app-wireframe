@@ -9,3 +9,46 @@ body {
     width: 80%;
     text-align: center;
 }
+
+.label-logo {
+    text-transform: uppercase;
+    text-align: center;
+    align-items: center;
+    color: #929292;
+    margin: 25px 0 200px;
+    line-height: 34px;
+}
+
+.tagline {
+    text-align: center;
+    font-size: 20px;
+    color: #929292;
+    font-style: normal;
+    margin: 0px 70px 35px;
+}
+
+.search-input {
+    text-transform: initial;
+    color: #929292; 
+    align-content: center;
+}
+
+input {
+    /* margin: 25px 10px 25px; */
+    border: 2px solid #929292;
+    border-radius: 5px;
+    box-sizing: content-box;
+}
+
+button {
+    background-color: #fff;
+    border-radius: 5px;
+    border: 2px solid #929292; 
+    height: 36px;
+}
+
+i.fa-search {
+    padding: 5px;
+    color: #929292;
+    background-color: #fff;
+}
