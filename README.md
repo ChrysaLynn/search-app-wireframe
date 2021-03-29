@@ -15,5 +15,5 @@ Currently only in the "wireframe" stage, but a fully functional design/MVP will 
 
 ### Contributors 
 - [Stephen Parker (Fullstack)](https://sparker.work)
-- Chrysalis Parker (Frontend)
+- [Chrysalis Parker (Frontend)](https://github.com/ChrysaLynn)
 - Kenneth Parker (Design)
