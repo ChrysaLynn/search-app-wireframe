@@ -68,8 +68,13 @@ form {
     border: 2px solid #929292;
     border-radius: 5px;
     width: 80%;
-    height: 655px;
+    height: 545px;
     margin: 35px auto;
+}
+
+ul {
+    padding: 0;
+    margin: 25px 50px;
 }
 
 .row {
