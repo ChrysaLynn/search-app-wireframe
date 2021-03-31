@@ -68,7 +68,7 @@ form {
     border: 2px solid #929292;
     border-radius: 5px;
     width: 80%;
-    height: 655px;
+    height: 560px;
     margin: 35px auto;
 }
 
@@ -83,6 +83,11 @@ form {
     align-items: center;
     width: 100%;
     border-bottom: 1px solid #333;
+}
+
+ul {
+    padding: 0;
+    margin: 25px 50px;
 }
 
 .fa-angle-down {
