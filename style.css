@@ -45,7 +45,7 @@ a.search--button button {
     cursor: pointer;
 }
 
-i.fa-search {
+.search--button button i {
     padding: 5px;
     color: #929292;
     background-color: #fff;
@@ -75,14 +75,15 @@ form {
 .row {
     font-family: 'Roboto', sans-serif;
     font-size: 16px;
-    line-height: 19px;
+    line-height: 18.75px;
+    font-weight: 400;
     list-style-type: none;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
     width: 100%;
-    border-bottom: 1px solid #333;
+    border-bottom: 1px solid #D9D9D9;
 }
 
 ul {
@@ -90,8 +91,9 @@ ul {
     margin: 25px 50px;
 }
 
-.fa-angle-down {
-    padding-left: 30px;
+li.row i {
+    color: #333;
+    font-size: 1.25rem;
 }
 
 input.search-input {
