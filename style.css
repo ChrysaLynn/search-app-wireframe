@@ -46,6 +46,10 @@ a.search--button {
     margin-left: 10px;
 }
 
+ul li {
+    list-style-type: none;
+}
+
 .search--button button i {
     padding: 5px;
     color: #929292;
@@ -84,7 +88,18 @@ form {
     justify-content: space-between;
     align-items: center;
     width: 100%;
+}
+
+li.row {
     border-bottom: 1px solid #D9D9D9;
+}
+
+li.row a {
+    text-transform: none;
+    text-decoration: none;
+    color: #000;
+    padding: 0;
+    margin: 0;
 }
 
 ul {
