@@ -115,3 +115,16 @@ li.row i {
 input.search-input {
     width: 100%;
 }
+
+li.scnd-row {
+    list-style: none;
+    display: block;
+    /* border: 1px solid red; */
+    padding: 0;
+}
+
+ul.search-two {
+    margin: 0;
+    padding: 0;
+    text-indent: 15px;
+}
