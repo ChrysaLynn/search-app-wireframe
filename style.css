@@ -73,8 +73,10 @@ form {
     border: 2px solid #929292;
     border-radius: 5px;
     width: 80%;
-    height: 560px;
+    height: 520px;
     margin: 35px auto;
+    box-sizing: border-box;
+    overflow: scroll;
 }
 
 .row {
@@ -119,12 +121,16 @@ input.search-input {
 li.scnd-row {
     list-style: none;
     display: block;
-    /* border: 1px solid red; */
     padding: 0;
+}
+
+li.scnd-row p {
+    margin-top: 10px;
 }
 
 ul.search-two {
     margin: 0;
     padding: 0;
     text-indent: 15px;
+    /* border: solid 1px #000; */
 }
